@@ -1,0 +1,36 @@
+---
+title: "Ejemplos de ruteo"
+author: "Guille Ferchero"
+format: html
+editor: visual
+---
+
+## Ruteo
+
+Ejemplo de  <https://rpubs.com/vicplunk/795170>.
+
+## Librerías
+
+
+
+```{r}
+library(tidyverse)
+library(sf)
+library(ggmap)
+library(leaflet)
+install.packages("osrm")
+library(osrm)
+library(osmdata)
+library(Rcpp)
+
+
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
